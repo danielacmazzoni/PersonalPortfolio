@@ -1,3 +1,4 @@
+
 /* background color */
 body {
   background-color: #c6d2c6;
@@ -10,12 +11,12 @@ box-sizing: border-box;
 .skewed-bg{
 background: #ffdedc;
 padding:350px 0;
--webkit-transform: skew(0deg, -10deg);
--moz-transform: skew(0deg, -10deg);
--ms-transform: skew(0deg, -10deg);
--o-transform: skew(0deg, -10deg);
-transform: skew(0def, -10deg);
-margin-top: -200px;
+-webkit-transform: skew(0deg, -5deg);
+-moz-transform: skew(0deg, -5deg);
+-ms-transform: skew(0deg, -5deg);
+-o-transform: skew(0deg, -5deg);
+transform: skew(0def, -5deg);
+margin-top: -210px;
 border-bottom: 1.5px solid black;
 }
 .skewed-bg2{
@@ -27,7 +28,20 @@ padding:430px 0;
 -ms-transform: skew(0deg, 0deg);
 -o-transform: skew(0deg, 0deg);
 transform: skew(0def, 0deg);
-margin-top: 450px;
+margin-top: 510px;
+border-bottom: 1.5px solid black;
+}
+
+.skewed-bg3{
+border-top: 1.5px solid black;
+background: #ffdedc;
+padding:430px 0;
+-webkit-transform: skew(0deg, 0deg);
+-moz-transform: skew(0deg, 0deg);
+-ms-transform: skew(0deg, 0deg);
+-o-transform: skew(0deg, 0deg);
+transform: skew(0def, 0deg);
+margin-top: 510px;
 border-bottom: 1.5px solid black;
 }
 
@@ -85,7 +99,7 @@ li a: hover{
 .image1 {
   transform: rotate(-3deg);
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 60px;
   border-radius: 30%;
   box-shadow: 0 0 0 1px black,
@@ -115,7 +129,7 @@ li a: hover{
 h2{
 color: #000;
 position: absolute;
-top: 285px;
+top: 265px;
 left: 550px;
 font-size: 70px;
 text-transform:lowercase;
@@ -126,7 +140,7 @@ font-family: 'Tilt Warp', cursive;
 p {
 color: #000;
 position: absolute;
-top: 380px;
+top: 360px;
 left:550px;
 text-transform: lowercase;
 font-family: 'Urbanist', sans-serif;
@@ -137,7 +151,7 @@ font-family: 'Urbanist', sans-serif;
 /*star doodle*/
 .image2{
 position: absolute;
-   top: 480px;
+   top: 460px;
    left: 430px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -158,7 +172,7 @@ position: absolute;
 
 .image4{
 position: absolute;
-   top: 135px;
+   top: 115px;
    left: 40px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -178,7 +192,7 @@ position: absolute;
     }
 .image5{
 position: absolute;
-   top: 527px;
+   top: 507px;
    left: 430px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -198,7 +212,7 @@ position: absolute;
     }
 .image6{
 position: absolute;
-   top: 137px;
+   top: 117px;
    left: 85px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -218,7 +232,7 @@ position: absolute;
     }
 .image8{
 position: absolute;
-   top: 185px;
+   top: 165px;
    left: 50px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -238,7 +252,7 @@ position: absolute;
     }
 .image9{
 position: absolute;
-   top: 482px;
+   top: 462px;
    left: 476px;
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -259,7 +273,7 @@ position: absolute;
 /*hand wave doodle*/
 .image3{
 position: absolute;
-top: 265px;
+top: 245px;
 left:900px;
     animation: shake 0.35s;
     animation-iteration-count: infinite;
@@ -271,11 +285,12 @@ left:900px;
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
 }
+
 h3{
 color: #000;
 position: absolute;
-top: 502px;
-left: 890px;
+top: 562px;
+left: 930px;
 font-size: 80px;
 text-transform:lowercase;
 font-family: 'Tilt Warp', cursive;
@@ -286,18 +301,20 @@ p2 {
 color: #000;
 text-align: right;
 position: absolute;
-top: 710px;
-left:625px;
+top: 770px;
+left:665px;
 text-transform: lowercase;
 font-family: 'Urbanist', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size: 18px;
 }
+
+/*resume*/
 h4{
 color: #000;
 position: absolute;
-top: 1190px;
+top: 1170px;
 left:550px;
 font-size: 70px;
 text-transform:lowercase;
@@ -305,7 +322,7 @@ font-family: 'Tilt Warp', cursive;
 }
 .image7 {
   position: absolute;
-  top: 1320px;
+  top: 1290px;
   left: 420px;
   box-shadow: 0 0 0 1px black,
     0 0 0 5px #c6d2c6,
@@ -327,64 +344,75 @@ font-family: 'Tilt Warp', cursive;
   transform: rotate(10deg);
   border-radius: 0%;
   position: absolute;
-  top: 730px;
-  left: 25px;
+  top: 710px;
+  left: 65px;
   z-index: 1;
   border-top: 5px solid white;
     border-left: 5px solid white;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
+        box-shadow: 0 0 0 2px black;
 }
+
+
 /*main pic*/
 .image11 {
-  transform: rotate(2deg);
+  transform: rotate(5deg);
   border-radius: 0%;
   position: absolute;
   top: 740px;
-  left: 190px;
+  left: 230px;
   border-top: 10px solid white;
   border-left: 10px solid white;
   border-right: 10px solid white;
   border-bottom: 50px solid white;
+      box-shadow: 0 0 0 2px black;
+
 }
 /*beach*/
 .image12 {
   transform: rotate(-5deg);
   border-radius: 0%;
   position: absolute;
-  top: 890px;
-  left: 25px;
+  top: 900px;
+  left: 65px;
   border-top: 5px solid white;
     border-left:5px solid white;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
+        box-shadow: 0 0 0 2px black;
+
 
 }
 /*twine pic*/
 .image13 {
-  transform: rotate(10deg);
-  border-radius: 0%;
-  position: absolute;
-  top: 640px;
-  left: 620px;
+  transform: rotate(-5deg);
+    border-radius: 0%;
+    position: absolute;
+    top: 640px;
+    left: 510px;
   z-index: 1;
   border-top: 5px solid white;
     border-left: 5px solid white;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
+        box-shadow: 0 0 0 2px black;
+
 }
 /*tiny pic*/
 .image14{
-  transform: rotate(-5deg);
-  border-radius: 0%;
-  position: absolute;
-  top: 640px;
-  left: 470px;
+  transform: rotate(10deg);
+    border-radius: 0%;
+    position: absolute;
+    top: 640px;
+    left: 660px;
   z-index: 1;
   border-top: 5px solid white;
     border-left: 5px solid white;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
+        box-shadow: 0 0 0 2px black;
+
 }
 /*food pic*/
 .image15 {
@@ -392,10 +420,120 @@ font-family: 'Tilt Warp', cursive;
   border-radius: 0%;
   position: absolute;
   top: 850px;
-  left: 435px;
+  left: 475px;
   z-index: 1;
   border-top: 5px solid white;
     border-left: 5px solid white;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
+    box-shadow: 0 0 0 2px black;
+}
+.image16{
+transform: rotate(8deg);
+position: absolute;
+top: 925px;
+left: 220px;
+z-index: 1;
+}
+
+.image17{
+transform: rotate(-5deg);
+position: absolute;
+top: 1025px;
+left: 75px;
+z-index: 1;
+}
+
+.image18{
+transform: rotate(10deg);
+position: absolute;
+top: 828px;
+left: 60px;
+z-index: 1;
+}
+.image19{
+transform: rotate(-5deg);
+position: absolute;
+top: 988px;
+left: 488px;
+z-index: 1;
+}
+.image20{
+transform: rotate(-5deg);
+position: absolute;
+top: 763px;
+left: 520px;
+z-index: 1;
+}
+.image21{
+transform: rotate(10deg);
+position: absolute;
+top: 758px;
+left: 653px;
+z-index: 1;
+}
+
+/* pink tape*/
+.image22{
+transform: rotate(10deg);
+position: absolute;
+top: 615px;
+left: 705px;
+z-index: 1;
+
+}
+/* green tape*/
+.image23{
+transform: rotate(15deg);
+position: absolute;
+top: 622px;
+left: 530px;
+z-index: 1;
+}
+/* blue tape*/
+.image24{
+transform: rotate(-5deg);
+position: absolute;
+top: 830px;
+left: 500px;
+z-index: 1;
+}
+
+.image25{
+transform: rotate(-39deg);
+position: absolute;
+top: 715px;
+left: 200px;
+z-index: 1;
+}
+
+.image26{
+transform: rotate(-39deg);
+position: absolute;
+top: 990px;
+left: 395px;
+z-index: 1;
+}
+.image27{
+transform: rotate(-39deg);
+position: absolute;
+top: 895px;
+left: 35px;
+z-index: 1;
+}
+
+.image28{
+transform: rotate(-39deg);
+position: absolute;
+top: 1045px;
+left: 175px;
+z-index: 1;
+}
+
+.image29{
+transform: rotate(10deg);
+position: absolute;
+top: 695px;
+left: 110px;
+z-index: 1;
 }
