@@ -397,7 +397,6 @@ font-family: 'Tilt Warp', cursive;
     border-right: 5px solid white;
     border-bottom: 40px solid white;
         box-shadow: 0 0 0 2px black;
-
 }
 /*tiny pic*/
 .image14{
@@ -428,6 +427,7 @@ font-family: 'Tilt Warp', cursive;
     border-bottom: 40px solid white;
     box-shadow: 0 0 0 2px black;
 }
+/*
 .image16{
 transform: rotate(8deg);
 position: absolute;
@@ -472,8 +472,9 @@ top: 758px;
 left: 653px;
 z-index: 1;
 }
-
+*/
 /* pink tape*/
+/*
 .image22{
 transform: rotate(10deg);
 position: absolute;
@@ -483,6 +484,7 @@ z-index: 1;
 
 }
 /* green tape*/
+/*
 .image23{
 transform: rotate(15deg);
 position: absolute;
@@ -491,6 +493,7 @@ left: 530px;
 z-index: 1;
 }
 /* blue tape*/
+/*
 .image24{
 transform: rotate(-5deg);
 position: absolute;
@@ -537,3 +540,4 @@ top: 695px;
 left: 110px;
 z-index: 1;
 }
+*/
